@@ -40,7 +40,7 @@ export default StyleSheet.create({
     mainInfo: {
         display: "flex",
         width: "100%",
-        height: 150,
+        height: 100,
         justifyContent: "center"
     },
     info: {
@@ -61,7 +61,7 @@ export default StyleSheet.create({
     },
     achievement: {
         height: 90,
-        width: 130,
+        width: 140,
         backgroundColor: "#fff",
         borderRadius: 8,
         display: "flex",
@@ -69,9 +69,68 @@ export default StyleSheet.create({
         alignItems: "center",
         marginHorizontal: 4
     },
+    achievementTitle: {
+        fontFamily: "Poppins-Bold",
+        textAlign: "center",
+        marginBottom: 8
+    },
+    achievementDetail: {
+        display: "flex",
+        flexDirection: "row"
+    },
+    achievementCompletion: {
+        marginLeft: 10
+    },
     text: {
         color: "grey",
         fontSize: 30,
         fontFamily: "Poppins"
-    }
+    },
+    objectives: {
+        height: 290,
+        width: "100%",
+        backgroundColor: "#ffffff44",
+        marginVertical: 20,
+        borderRadius: 4,
+        alignItems: "center"
+    },
+    objective: {
+        display: "flex",
+        flexDirection: "row",
+        width: "100%",
+        padding: 14,
+        alignItems: "center"
+    },
+    objectiveIcon: {
+        marginRight: 10
+    },
+    objectiveTitle: {
+        fontFamily: "Poppins-Bold",
+        color: "#fff",
+        fontSize: 20
+    },
+    objectiveCompletion: {
+        marginLeft: "auto"
+    },
+    objectiveProgress: {
+        fontFamily: "Poppins-Bold",
+        color: "#fff",
+        fontSize: 24
+    },
+    quotes: {
+        display: "flex",
+        alignItems: "center"
+    },
+    quote: {
+        color: "#fff",
+        fontFamily: "Poppins",
+        textAlign: "center",
+        fontSize: 16
+    },
+    author: {
+        color: "#fff",
+        fontFamily: "Poppins-Bold",
+        textAlign: "center",
+        fontSize: 16
+    },
 })
