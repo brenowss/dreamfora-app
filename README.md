@@ -1,2 +1,2 @@
-# rn-ui-concept
-Essa é uma UI que veio em minha mente após ver umas inpirações e decidi colocar em prática apenas por diversão e estudo.
+# dreamfora-app
+Esse é um pequeno clone da interface de um app chamado Dreamfora, com o intuito apenas de estudo.
